@@ -1,0 +1,98 @@
+# Use the latest 2.1 version of CircleCI pipeline processing engine, see https://circleci.com/docs/2.0/configuration-reference/
+version: 2.1
+
+defaults: &defaults
+  working_directory: ~/repo
+  # https://circleci.com/docs/2.0/circleci-images/#language-image-variants
+  docker:
+    - image: cimg/node:16.14.2-browsers
+      environment:
+        TERM: xterm # Enable colors in term
+
+jobs:
+  CHECKOUT:
+    <<: *defaults
+    steps:
+      - checkout
+      - run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
+      - restore_cache:
+          name: Restore Package Cache
+          keys:
+            - packages-v1-{{ .Branch }}-{{ checksum "yarn.lock" }}
+            - packages-v1-{{ .Branch }}-
+            - packages-v1-
+      - run: yarn install --frozen-lockfile
+      - save_cache:
+          name: Save Package Cache
+          paths:
+            - ~/.cache/yarn
+          key: packages-v1-{{ .Branch }}-{{ checksum "yarn.lock" }}
+      - persist_to_workspace:
+          root: ~/repo
+          paths: .
+
+  BUILD:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: ~/repo
+      - run: yarn run build
+      - persist_to_workspace:
+          root: ~/repo
+          paths:
+            - packages/core/dist
+            - packages/tools/dist
+            - packages/streaming-image-volume-loader/dist
+            - packages/adapters/dist
+
+  NPM_PUBLISH:
+    <<: *defaults
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: ~/repo
+      - run:
+          name: Avoid hosts unknown for github
+          command:
+            mkdir ~/.ssh/ && echo -e "Host github.com\n\tStrictHostKeyChecking
+            no\n" > ~/.ssh/config
+      - add_ssh_keys:
+          fingerprints: 7e:0f:5b:bb:e3:7a:2e:2f:b4:85:bd:66:09:69:cb:f2
+      - run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
+      - run: git config --global user.email "ar.sedghi@gmail.com"
+      - run: git config --global user.name "alireza"
+      - run: npx lerna version
+      - run: npx lerna publish from-package --no-verify-access
+
+workflows:
+  version: 2
+
+  # PULL REQUEST
+  PULL_REQUEST:
+    jobs:
+      - CHECKOUT:
+          filters:
+            branches:
+              ignore:
+                - main
+                - feature/*
+                - hotfix/*
+      - BUILD:
+          requires:
+            - CHECKOUT
+
+  # MERGE TO MAIN
+  TEST_AND_RELEASE:
+    jobs:
+      - CHECKOUT:
+          filters:
+            branches:
+              only: main
+      - BUILD:
+          requires:
+            - CHECKOUT
+      - NPM_PUBLISH:
+          requires:
+            - BUILD
+
+# VS Code Extension Version: 1.5.1

@@ -1,0 +1,56 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "checkJs": false,
+    "paths": {
+      "@alireza-beta-monorepo/dicom-image-loader": [
+        "@alireza-beta-monorepo/dicom-image-loader-new/dist/dynamic-import/cornerstoneDICOMImageLoader.min.js"
+      ],
+      "@alireza-beta-monorepo/core": ["@alireza-beta-monorepo/core-new"],
+      "@alireza-beta-monorepo/tools": ["@alireza-beta-monorepo/tools-new"],
+      "@alireza-beta-monorepo/adapters": ["@alireza-beta-monorepo/adapters-new"],
+      "@alireza-beta-monorepo/streaming-image-volume-loader": [
+        "@alireza-beta-monorepo/streaming-image-volume-loader-new"
+      ]
+    },
+
+    // Ensure that .d.ts files are created by tsc, but not .js files
+    "declaration": true,
+    "emitDeclarationOnly": false,
+    // Ensure that Babel can safely transpile files in the TypeScript project
+    "isolatedModules": false,
+
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "useDefineForClassFields": false,
+    "jsx": "react-jsx",
+    "lib": ["ES6", "dom"], // "ES6", "DOM" | "es2015", "dom"
+    "module": "esnext", // esnext | commonjs
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "outDir": "lib",
+    "pretty": true,
+    "removeComments": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "strictNullChecks": false,
+    "target": "es5", // esnext | es5
+    "downlevelIteration": true,
+    "resolveJsonModule": true
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "packages/**/dist",
+    "packages/**/lib",
+    "packages/**/lib-esm",
+    "packages/adapters",
+    "packages/docs",
+    "snippets",
+    "examples"
+  ]
+}
