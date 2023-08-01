@@ -42,10 +42,6 @@ const VIEWPORT_MIN_SIZE = 2;
  * them on a large offscreen canvas and transmitting this data back to the screen. This allows us
  *
  * Instantiating a rendering engine:
- * ```js
- * const renderingEngine = new RenderingEngine('pet-ct-rendering-engine');
- * ```
- *
  * There are various ways you can trigger a render on viewports. The simplest is to call `render()`
  * on the rendering engine; however, it will trigger a render on all viewports. A more efficient
  * way to do this is to call `renderViewports([viewportId])` on the rendering engine to
