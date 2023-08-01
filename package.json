@@ -5,7 +5,7 @@
   "workspaces": [
     "packages/*"
   ],
-  "repository": "https://github.com/cornerstonejs/cornerstone3D-beta",
+  "repository": "https://github.com/sedghi/alireza-beta-script",
   "sideEffects": false,
   "engines": {
     "node": ">=12",
@@ -112,6 +112,7 @@
     "karma-webpack": "^5.0.0",
     "karma": "^6.4.2",
     "lerna": "^6.6.1",
+    "lerna-changelog": "^2.2.0",
     "lint-staged": "^13.2.2",
     "lodash": "^4.17.21",
     "mocha": "^9.1.1",
@@ -146,6 +147,16 @@
     "webpack": "5.81.0",
     "worker-loader": "^3.0.8",
     "xml2js": "^0.5.0"
+  },
+  "changelog": {
+    "labels": {
+      "type: feature :tada:": "Features",
+      "type: bug :sob:": "Bug fixes",
+      "type: enhancement :wolf:": "Enhancements",
+      "type: docs :page_facing_up:": "Docs",
+      "type: code style": "Code style tweaks",
+      "dependencies": "Dependencies"
+    }
   },
   "husky": {
     "hooks": {
