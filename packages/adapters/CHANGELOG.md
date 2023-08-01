@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0-beta.2](https://github.com/dcmjs-org/dcmjs/compare/v2.1.0...v3.0.0-beta.2) (2023-08-01)
+
+### Features
+
+-   **changelog in beta:** stuff ([f146956](https://github.com/dcmjs-org/dcmjs/commit/f146956c1ca45d91b1339564de97e96c005595ca))
+
+# [3.0.0-beta.1](https://github.com/dcmjs-org/dcmjs/compare/v2.0.0...v3.0.0-beta.1) (2023-08-01)
+
 # [2.1.0](https://github.com/dcmjs-org/dcmjs/compare/v2.0.0...v2.1.0) (2023-08-01)
 
 **Note:** Version bump only for package @alireza-beta-script/adapters-new
