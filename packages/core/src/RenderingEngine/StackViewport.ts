@@ -2627,8 +2627,6 @@ class StackViewport extends Viewport implements IStackViewport {
   }
 
   private unsetColormapGPU() {
-    // TODO -> vtk has full colormaps which are piecewise and frankly better?
-    // Do we really want a pre defined 256 color map just for the sake of harmonization?
     throw new Error('unsetColormapGPU not implemented.');
   }
 
