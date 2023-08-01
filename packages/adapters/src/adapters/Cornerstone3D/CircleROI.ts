@@ -7,6 +7,8 @@ const { Circle: TID300Circle } = utilities.TID300;
 
 const CIRCLEROI = "CircleROI";
 // added by beta
+
+// added by beta change log
 class CircleROI {
     static trackingIdentifierTextValue = `${CORNERSTONE_3D_TAG}:${CIRCLEROI}`;
     static toolType = CIRCLEROI;
