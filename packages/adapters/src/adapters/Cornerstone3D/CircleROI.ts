@@ -6,7 +6,7 @@ import isValidCornerstoneTrackingIdentifier from "./isValidCornerstoneTrackingId
 const { Circle: TID300Circle } = utilities.TID300;
 
 const CIRCLEROI = "CircleROI";
-
+// added by beta
 class CircleROI {
     static trackingIdentifierTextValue = `${CORNERSTONE_3D_TAG}:${CIRCLEROI}`;
     static toolType = CIRCLEROI;
