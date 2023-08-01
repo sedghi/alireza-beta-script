@@ -42,7 +42,6 @@ const VIEWPORT_MIN_SIZE = 2;
  * them on a large offscreen canvas and transmitting this data back to the screen. This allows us
  * added by main
  * Instantiating a rendering engine:
- * There are various ways you can trigger a render on viewports. The simplest is to call `render()`
  * on the rendering engine; however, it will trigger a render on all viewports. A more efficient
  * way to do this is to call `renderViewports([viewportId])` on the rendering engine to
  * trigger a render on a specific viewport(s). Each viewport also has a `.render` method which can be used to trigger a render on that
@@ -75,7 +74,7 @@ class RenderingEngine implements IRenderingEngine {
   private _animationFrameSet = false;
   private _animationFrameHandle: number | null = null;
   private useCPURendering: boolean;
-
+  // added by beta
   /**
    * @param uid - Unique identifier for RenderingEngine
    */
