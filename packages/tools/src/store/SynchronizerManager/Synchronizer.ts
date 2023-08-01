@@ -3,7 +3,7 @@ import {
   getEnabledElement,
   Enums,
   Types,
-} from '@alireza-beta-monorepo/core';
+} from '@alireza-beta-script/core';
 
 import { ISynchronizerEventHandler } from '../../types';
 

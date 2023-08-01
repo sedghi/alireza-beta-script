@@ -1,4 +1,4 @@
-import type { Types } from '@alireza-beta-monorepo/core';
+import type { Types } from '@alireza-beta-script/core';
 
 /** Handle position in the world coordinates */
 type AnnotationHandle = Types.Point3;

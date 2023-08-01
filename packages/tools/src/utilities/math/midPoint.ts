@@ -1,4 +1,4 @@
-import { Types } from '@alireza-beta-monorepo/core';
+import { Types } from '@alireza-beta-script/core';
 
 /**
  * Return the midpoint (think average) of all the provided points.

@@ -1,4 +1,4 @@
-import { utilities as csUtils } from '@alireza-beta-monorepo/core';
+import { utilities as csUtils } from '@alireza-beta-script/core';
 
 const scalingPerImageId = {};
 

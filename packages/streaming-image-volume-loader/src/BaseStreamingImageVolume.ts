@@ -8,9 +8,9 @@ import {
   cache,
   imageLoader,
   utilities as csUtils,
-} from '@alireza-beta-monorepo/core';
+} from '@alireza-beta-script/core';
 
-import type { Types } from '@alireza-beta-monorepo/core';
+import type { Types } from '@alireza-beta-script/core';
 import { scaleArray, autoLoad } from './helpers';
 
 const requestType = Enums.RequestType.Prefetch;

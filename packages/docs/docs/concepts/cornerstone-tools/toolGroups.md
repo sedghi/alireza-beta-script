@@ -44,7 +44,7 @@ destroy Tool Groups.
 ToolGroupManager can be utilized to create a tool group using `createToolGroup`.
 
 ```js
-import { ToolGroupManager } from '@alireza-beta-monorepo/tools';
+import { ToolGroupManager } from '@alireza-beta-script/tools';
 
 const toolGroupId = 'ctToolGroup';
 const ctToolGroup = ToolGroupManager.createToolGroup(toolGroupId);

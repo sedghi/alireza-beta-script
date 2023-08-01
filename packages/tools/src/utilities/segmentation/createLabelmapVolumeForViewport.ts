@@ -4,8 +4,8 @@ import {
   volumeLoader,
   VolumeViewport,
   utilities as csUtils,
-} from '@alireza-beta-monorepo/core';
-import type { Types } from '@alireza-beta-monorepo/core';
+} from '@alireza-beta-script/core';
+import type { Types } from '@alireza-beta-script/core';
 
 /**
  * Create a new 3D segmentation volume from the default imageData presented in

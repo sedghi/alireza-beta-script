@@ -1,4 +1,4 @@
-import type { Types } from '@alireza-beta-monorepo/core';
+import type { Types } from '@alireza-beta-script/core';
 
 /**
  * Calculates the area of an array of `Point2` points using the shoelace algorithm.

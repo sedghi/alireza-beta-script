@@ -4,7 +4,7 @@ import {
   Enums,
   setVolumesForViewports,
   volumeLoader,
-} from '@alireza-beta-monorepo/core';
+} from '@alireza-beta-script/core';
 import {
   initDemo,
   createImageIdsAndCacheMetaData,
@@ -12,7 +12,7 @@ import {
   addDropdownToToolbar,
   addToggleButtonToToolbar,
 } from '../../../../utils/demo/helpers';
-import * as cornerstoneTools from '@alireza-beta-monorepo/tools';
+import * as cornerstoneTools from '@alireza-beta-script/tools';
 
 // This is for debugging purposes
 console.warn(

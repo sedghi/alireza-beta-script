@@ -1,4 +1,4 @@
-import { getEnabledElement } from '@alireza-beta-monorepo/core';
+import { getEnabledElement } from '@alireza-beta-script/core';
 
 const state: Record<number, any> = {};
 

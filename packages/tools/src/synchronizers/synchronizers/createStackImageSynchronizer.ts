@@ -1,5 +1,5 @@
 import { createSynchronizer } from '../../store/SynchronizerManager';
-import { Enums } from '@alireza-beta-monorepo/core';
+import { Enums } from '@alireza-beta-script/core';
 import stackImageSyncCallback from '../callbacks/stackImageSyncCallback';
 import Synchronizer from '../../store/SynchronizerManager/Synchronizer';
 

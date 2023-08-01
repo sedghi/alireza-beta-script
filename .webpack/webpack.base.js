@@ -47,14 +47,8 @@ module.exports = (env, argv, { DIST_DIR }) => {
       modules: [path.resolve(PROJECT_ROOT, './node_modules'), SRC_PATH],
       extensions: ['.ts', '.tsx', '.js', '.jsx'],
       alias: {
-        '@alireza-beta-monorepo/dicom-image-loader':
-          '@alireza-beta-monorepo/dicom-image-loader-new/dist/dynamic-import/cornerstoneDICOMImageLoader.min.js',
-        '@alireza-beta-monorepo/core': '@alireza-beta-monorepo/core-new',
-        '@alireza-beta-monorepo/tools': '@alireza-beta-monorepo/tools-new',
-        '@alireza-beta-monorepo/adapters':
-          '@alireza-beta-monorepo/adapters-new',
-        '@alireza-beta-monorepo/streaming-image-volume-loader':
-          '@alireza-beta-monorepo/streaming-image-volume-loader-new',
+        '@alireza-beta-script/dicom-image-loader':
+          '@alireza-beta-script/dicom-image-loader-new/dist/dynamic-import/cornerstoneDICOMImageLoader.min.js',
       },
       fallback: {
         fs: false,

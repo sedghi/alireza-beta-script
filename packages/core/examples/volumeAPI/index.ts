@@ -6,7 +6,7 @@ import {
   getRenderingEngine,
   utilities,
   CONSTANTS,
-} from '@alireza-beta-monorepo/core';
+} from '@alireza-beta-script/core';
 import {
   initDemo,
   createImageIdsAndCacheMetaData,

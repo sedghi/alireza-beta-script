@@ -3,8 +3,8 @@ import {
   getRenderingEngines,
   CONSTANTS,
   utilities as csUtils,
-} from '@alireza-beta-monorepo/core';
-import type { Types } from '@alireza-beta-monorepo/core';
+} from '@alireza-beta-script/core';
+import type { Types } from '@alireza-beta-script/core';
 
 import { addAnnotation } from '../stateManagement/annotation/annotationState';
 

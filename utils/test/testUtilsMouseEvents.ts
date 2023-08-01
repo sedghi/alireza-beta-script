@@ -1,6 +1,6 @@
 import type { vtkImageData } from '@kitware/vtk.js/Common/DataModel/ImageData';
-import { getOrCreateCanvas } from '@alireza-beta-monorepo/core';
-import * as cornerstoneTools from '@alireza-beta-monorepo/tools';
+import { getOrCreateCanvas } from '@alireza-beta-script/core';
+import * as cornerstoneTools from '@alireza-beta-script/tools';
 
 const { Events } = cornerstoneTools.Enums;
 

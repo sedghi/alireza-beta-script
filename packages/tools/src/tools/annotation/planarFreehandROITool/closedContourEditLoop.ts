@@ -1,5 +1,5 @@
-import { getEnabledElement } from '@alireza-beta-monorepo/core';
-import type { Types } from '@alireza-beta-monorepo/core';
+import { getEnabledElement } from '@alireza-beta-script/core';
+import type { Types } from '@alireza-beta-script/core';
 import { state } from '../../../store';
 import { Events } from '../../../enums';
 import {

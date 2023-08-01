@@ -3,7 +3,7 @@ import {
   StackViewport,
   Types,
   VolumeViewport,
-} from '@alireza-beta-monorepo/core';
+} from '@alireza-beta-script/core';
 
 /**
  * Synchronizer callback to synchronize the voi of volumeActors of identical volumes

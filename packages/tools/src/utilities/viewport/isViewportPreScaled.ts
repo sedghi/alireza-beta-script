@@ -3,7 +3,7 @@ import {
   StackViewport,
   Types,
   BaseVolumeViewport,
-} from '@alireza-beta-monorepo/core';
+} from '@alireza-beta-script/core';
 
 function isViewportPreScaled(
   viewport: Types.IStackViewport | Types.IVolumeViewport,

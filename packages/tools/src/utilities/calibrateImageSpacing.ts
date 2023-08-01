@@ -1,5 +1,5 @@
-import { utilities } from '@alireza-beta-monorepo/core';
-import type { Types } from '@alireza-beta-monorepo/core';
+import { utilities } from '@alireza-beta-script/core';
+import type { Types } from '@alireza-beta-script/core';
 
 const { calibratedPixelSpacingMetadataProvider } = utilities;
 

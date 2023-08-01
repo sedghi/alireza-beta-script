@@ -4,7 +4,7 @@ import {
   Enums,
   volumeLoader,
   getRenderingEngine,
-} from '@alireza-beta-monorepo/core';
+} from '@alireza-beta-script/core';
 import {
   initDemo,
   createImageIdsAndCacheMetaData,
@@ -14,8 +14,8 @@ import {
   addDropdownToToolbar,
   addButtonToToolbar,
 } from '../../../../utils/demo/helpers';
-import * as cornerstoneTools from '@alireza-beta-monorepo/tools';
-import cornerstoneDICOMImageLoader from '@alireza-beta-monorepo/dicom-image-loader';
+import * as cornerstoneTools from '@alireza-beta-script/tools';
+import cornerstoneDICOMImageLoader from '@alireza-beta-script/dicom-image-loader';
 
 const {
   SegmentationDisplayTool,

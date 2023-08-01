@@ -6,7 +6,7 @@ import {
   utilities,
   cache,
   Types,
-} from '@alireza-beta-monorepo/core';
+} from '@alireza-beta-script/core';
 import { EventTypes } from '../types';
 
 // Todo: should move to configuration

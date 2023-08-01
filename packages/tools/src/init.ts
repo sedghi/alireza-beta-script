@@ -1,4 +1,4 @@
-import { eventTarget, Enums } from '@alireza-beta-monorepo/core';
+import { eventTarget, Enums } from '@alireza-beta-script/core';
 import { getAnnotationManager } from './stateManagement/annotation/annotationState';
 import { getDefaultSegmentationStateManager } from './stateManagement/segmentation/segmentationState';
 import { Events as TOOLS_EVENTS } from './enums';

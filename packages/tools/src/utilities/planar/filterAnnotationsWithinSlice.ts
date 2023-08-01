@@ -1,6 +1,6 @@
 import { vec3 } from 'gl-matrix';
-import { CONSTANTS, metaData } from '@alireza-beta-monorepo/core';
-import type { Types } from '@alireza-beta-monorepo/core';
+import { CONSTANTS, metaData } from '@alireza-beta-script/core';
+import type { Types } from '@alireza-beta-script/core';
 import { Annotations, Annotation } from '../../types';
 import { debug } from 'console';
 

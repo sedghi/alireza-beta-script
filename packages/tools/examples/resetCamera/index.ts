@@ -4,8 +4,8 @@ import {
   Enums,
   volumeLoader,
   getRenderingEngine,
-} from '@alireza-beta-monorepo/core';
-import * as cornerstoneTools from '@alireza-beta-monorepo/tools';
+} from '@alireza-beta-script/core';
+import * as cornerstoneTools from '@alireza-beta-script/tools';
 
 import {
   initDemo,

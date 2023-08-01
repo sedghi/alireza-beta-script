@@ -8,8 +8,8 @@ import {
   eventTarget,
   utilities as csUtils,
   utilities,
-} from '@alireza-beta-monorepo/core';
-import type { Types } from '@alireza-beta-monorepo/core';
+} from '@alireza-beta-script/core';
+import type { Types } from '@alireza-beta-script/core';
 
 import { AnnotationTool } from '../base';
 import {

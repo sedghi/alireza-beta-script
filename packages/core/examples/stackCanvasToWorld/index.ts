@@ -1,4 +1,4 @@
-import { RenderingEngine, Types, Enums } from '@alireza-beta-monorepo/core';
+import { RenderingEngine, Types, Enums } from '@alireza-beta-script/core';
 import {
   initDemo,
   createImageIdsAndCacheMetaData,

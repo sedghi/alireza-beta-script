@@ -1,4 +1,4 @@
-import { getEnabledElement } from '@alireza-beta-monorepo/core';
+import { getEnabledElement } from '@alireza-beta-script/core';
 import filterViewportsWithFrameOfReferenceUID from './filterViewportsWithFrameOfReferenceUID';
 import filterViewportsWithToolEnabled from './filterViewportsWithToolEnabled';
 import filterViewportsWithParallelNormals from './filterViewportsWithParallelNormals';

@@ -1,5 +1,5 @@
 import { state } from '../store';
-import { getEnabledElement } from '@alireza-beta-monorepo/core';
+import { getEnabledElement } from '@alireza-beta-script/core';
 import { SVGDrawingHelper } from '../types';
 
 const VIEWPORT_ELEMENT = 'viewport-element';

@@ -2,8 +2,8 @@ import {
   StackViewport,
   utilities,
   BaseVolumeViewport,
-} from '@alireza-beta-monorepo/core';
-import { Types } from '@alireza-beta-monorepo/core';
+} from '@alireza-beta-script/core';
+import { Types } from '@alireza-beta-script/core';
 import { ToolModes } from '../../enums';
 import { InteractionTypes, ToolProps, PublicToolProps } from '../../types';
 

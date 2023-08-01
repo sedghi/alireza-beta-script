@@ -1,5 +1,5 @@
-import { getEnabledElement, triggerEvent } from '@alireza-beta-monorepo/core';
-import type { Types } from '@alireza-beta-monorepo/core';
+import { getEnabledElement, triggerEvent } from '@alireza-beta-script/core';
+import type { Types } from '@alireza-beta-script/core';
 
 import Events from '../../enums/Events';
 import mouseMoveListener from './mouseMoveListener';

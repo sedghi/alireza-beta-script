@@ -5,7 +5,7 @@ import {
   Enums,
   utilities as csUtils,
   CONSTANTS,
-} from '@alireza-beta-monorepo/core';
+} from '@alireza-beta-script/core';
 // TODO -> A load of the utilities in cornerstone tools are just about the volumes and should be in core instead
 import {
   initDemo,

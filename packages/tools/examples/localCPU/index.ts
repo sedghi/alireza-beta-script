@@ -3,16 +3,16 @@ import {
   Types,
   Enums,
   metaData,
-} from '@alireza-beta-monorepo/core';
-import cornerstoneDICOMImageLoader from '@alireza-beta-monorepo/dicom-image-loader';
-import * as cornerstoneTools from '@alireza-beta-monorepo/tools';
+} from '@alireza-beta-script/core';
+import cornerstoneDICOMImageLoader from '@alireza-beta-script/dicom-image-loader';
+import * as cornerstoneTools from '@alireza-beta-script/tools';
 import htmlSetup from '../local/htmlSetup';
 import uids from '../local/uids';
 
 import initProviders from '../../../../utils/demo/helpers/initProviders';
 import initCornerstoneDICOMImageLoader from '../../../../utils/demo/helpers/initCornerstoneDICOMImageLoader';
 import initVolumeLoader from './../../../../utils/demo/helpers/initVolumeLoader';
-import { setUseCPURendering } from '@alireza-beta-monorepo/core';
+import { setUseCPURendering } from '@alireza-beta-script/core';
 
 const {
   PanTool,

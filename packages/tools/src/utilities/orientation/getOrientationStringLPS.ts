@@ -1,4 +1,4 @@
-import { Types } from '@alireza-beta-monorepo/core';
+import { Types } from '@alireza-beta-script/core';
 
 /**
  * Returns the orientation of the vector in the patient coordinate system.

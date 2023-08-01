@@ -1,4 +1,4 @@
-import { cache, Types } from '@alireza-beta-monorepo/core';
+import { cache, Types } from '@alireza-beta-script/core';
 import * as SegmentationState from '../../../stateManagement/segmentation/segmentationState';
 import { getSegmentationRepresentations } from '../../../stateManagement/segmentation/segmentationState';
 import { ToolGroupSpecificRepresentation } from '../../../types/SegmentationStateTypes';

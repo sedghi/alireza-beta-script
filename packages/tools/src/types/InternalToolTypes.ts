@@ -1,4 +1,4 @@
-import { Types } from '@alireza-beta-monorepo/core';
+import { Types } from '@alireza-beta-script/core';
 import { AnnotationTool } from '../tools';
 import { Annotation, Annotations } from './AnnotationTypes';
 

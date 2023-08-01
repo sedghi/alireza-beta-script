@@ -1,5 +1,5 @@
 import { createSynchronizer } from '../../store/SynchronizerManager';
-import { Enums } from '@alireza-beta-monorepo/core';
+import { Enums } from '@alireza-beta-script/core';
 import voiSyncCallback from '../callbacks/voiSyncCallback';
 import Synchronizer from '../../store/SynchronizerManager/Synchronizer';
 

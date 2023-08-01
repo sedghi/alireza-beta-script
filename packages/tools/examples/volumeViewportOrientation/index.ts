@@ -4,12 +4,12 @@ import {
   Enums,
   volumeLoader,
   getRenderingEngine,
-} from '@alireza-beta-monorepo/core';
+} from '@alireza-beta-script/core';
 import {
   StackScrollMouseWheelTool,
   ToolGroupManager,
   addTool,
-} from '@alireza-beta-monorepo/tools';
+} from '@alireza-beta-script/tools';
 import {
   initDemo,
   createImageIdsAndCacheMetaData,

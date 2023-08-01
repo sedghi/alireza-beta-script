@@ -33,11 +33,11 @@ module.exports = (env, argv) => {
     },
     externals: [
       {
-        '@alireza-beta-monorepo/core': {
+        '@alireza-beta-script/core': {
           root: 'cornerstone3D',
-          commonjs: '@alireza-beta-monorepo/core',
-          commonjs2: '@alireza-beta-monorepo/core',
-          amd: '@alireza-beta-monorepo/core',
+          commonjs: '@alireza-beta-script/core',
+          commonjs2: '@alireza-beta-script/core',
+          amd: '@alireza-beta-script/core',
         },
       },
     ],

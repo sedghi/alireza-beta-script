@@ -1,4 +1,4 @@
-import * as cornerstoneImport from '@alireza-beta-monorepo/core';
+import * as cornerstoneImport from '@alireza-beta-script/core';
 import { loadImage } from './loadImage';
 import { metaDataProvider } from './metaData/index';
 

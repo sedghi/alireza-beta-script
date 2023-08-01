@@ -1,4 +1,4 @@
-import { utilities, cache, Types } from '@alireza-beta-monorepo/core';
+import { utilities, cache, Types } from '@alireza-beta-script/core';
 
 /**
  * Gets the scalar data for a series of time points for either a single

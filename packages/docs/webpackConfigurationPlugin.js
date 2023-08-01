@@ -21,7 +21,7 @@ const CopyPlugin = require('copy-webpack-plugin');
 //         new CopyPlugin({
 //           patterns: [
 //             {
-//               from: '../../node_modules/@alireza-beta-monorepo/dicom-image-loader/dist/dynamic-import/',
+//               from: '../../node_modules/@alireza-beta-script/dicom-image-loader/dist/dynamic-import/',
 //             },
 //           ],
 //         }),
@@ -34,14 +34,14 @@ const CopyPlugin = require('copy-webpack-plugin');
 //           path: require.resolve('path-browserify'),
 //         },
 //         alias: {
-//           '@alireza-beta-monorepo/core': path.resolve('../core/src/index'),
-//           '@alireza-beta-monorepo/tools': path.resolve('../tools/src/index'),
-//           '@alireza-beta-monorepo/streaming-image-volume-loader': path.resolve(
+//           '@alireza-beta-script/core': path.resolve('../core/src/index'),
+//           '@alireza-beta-script/tools': path.resolve('../tools/src/index'),
+//           '@alireza-beta-script/streaming-image-volume-loader': path.resolve(
 //             '../streaming-image-volume-loader/src/index'
 //           ),
 //           // We use this alias and the CopyPlugin to support using the dynamic-import version
 //           // of WADO Image Loader
-//           '@alireza-beta-monorepo/dicom-image-loader': '@alireza-beta-monorepo/dicom-image-loader/dist/dynamic-import/cornerstoneDICOMImageLoader.min.js',
+//           '@alireza-beta-script/dicom-image-loader': '@alireza-beta-script/dicom-image-loader/dist/dynamic-import/cornerstoneDICOMImageLoader.min.js',
 //         },
 //       },
 //       devServer: {

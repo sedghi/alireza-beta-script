@@ -3,7 +3,7 @@ import {
   VolumeViewport,
   Types,
   utilities as csUtils,
-} from '@alireza-beta-monorepo/core';
+} from '@alireza-beta-script/core';
 
 import filterAnnotationsWithinSlice from './filterAnnotationsWithinSlice';
 import { Annotations } from '../../types';

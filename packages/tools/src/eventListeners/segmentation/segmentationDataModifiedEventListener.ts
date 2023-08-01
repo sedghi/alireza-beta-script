@@ -1,4 +1,4 @@
-import { cache } from '@alireza-beta-monorepo/core';
+import { cache } from '@alireza-beta-script/core';
 
 import triggerSegmentationRender from '../../utilities/segmentation/triggerSegmentationRender';
 import SegmentationRepresentations from '../../enums/SegmentationRepresentations';

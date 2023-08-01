@@ -2,7 +2,7 @@ import {
   triggerEvent,
   eventTarget,
   utilities as csUtils,
-} from '@alireza-beta-monorepo/core';
+} from '@alireza-beta-script/core';
 import { Events } from '../../enums';
 import { defaultFrameOfReferenceSpecificAnnotationManager } from './FrameOfReferenceSpecificAnnotationManager';
 import { Annotations, Annotation } from '../../types/AnnotationTypes';

@@ -18,7 +18,7 @@ As you see in the locked scenario (right image), the segment index 1 cannot be c
 ## API
 
 ```js
-import { segmentation } from '@alireza-beta-monorepo/tools';
+import { segmentation } from '@alireza-beta-script/tools';
 
 // For locking a segment index on a segmentation
 segmentation.locking.setSegmentIndexLocked(

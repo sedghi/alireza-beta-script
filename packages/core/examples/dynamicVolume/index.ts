@@ -4,7 +4,7 @@ import {
   Enums,
   volumeLoader,
   getRenderingEngine,
-} from '@alireza-beta-monorepo/core';
+} from '@alireza-beta-script/core';
 import {
   initDemo,
   createImageIdsAndCacheMetaData,
