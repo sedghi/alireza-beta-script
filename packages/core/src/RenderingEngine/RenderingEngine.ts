@@ -75,6 +75,7 @@ class RenderingEngine implements IRenderingEngine {
   private _animationFrameHandle: number | null = null;
   private useCPURendering: boolean;
   // added by beta
+  // added by beta
   /**
    * @param uid - Unique identifier for RenderingEngine
    */
