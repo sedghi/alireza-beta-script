@@ -133,7 +133,8 @@ async function run() {
     '--message',
     'chore(version): Update package versions [skip ci]',
     '--conventional-commits',
-    '--create-release github',
+    '--create-release',
+    'github',
   ]);
 
   console.log('Version set using lerna');
