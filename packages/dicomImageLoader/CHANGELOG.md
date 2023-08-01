@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/cornerstonejs/cornerstone3D-beta/compare/v2.0.0...v2.1.0) (2023-08-01)
+
+### Features
+
+- **lerna:** version stuff ([#7](https://github.com/cornerstonejs/cornerstone3D-beta/issues/7)) ([02442fb](https://github.com/cornerstonejs/cornerstone3D-beta/commit/02442fb11a235d6202ece90f9a121a9729c90c2e))
+
 ## [1.0.1](https://github.com/cornerstonejs/cornerstone3D-beta/compare/v1.0.0...v1.0.1) (2023-07-31)
 
 **Note:** Version bump only for package @alireza-beta-script/dicom-image-loader

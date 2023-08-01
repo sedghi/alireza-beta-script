@@ -6,7 +6,6 @@ const renderingEngineCache = {
   /**
    * Returns the `RenderingEngine` instance with the given `id`.
    *
-   * @param id - The `id` of the `RenderingEngine` instance to fetch.
    * @returns The `RenderingEngine` instance.
    */
   get: (id: string): IRenderingEngine => {
