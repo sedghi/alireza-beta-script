@@ -1,4 +1,4 @@
-import type { Types } from '@alireza-beta-monorepo/core';
+import type { Types } from '@alireza-beta-script/core';
 
 /**
  * Determine the coordinates that will place the textbox to the right of the

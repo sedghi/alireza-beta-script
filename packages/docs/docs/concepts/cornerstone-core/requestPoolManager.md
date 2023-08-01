@@ -46,7 +46,7 @@ import {
   imageLoadPoolManager,
   loadAndCacheImage,
   RequestType,
-} from '@alireza-beta-monorepo/core';
+} from '@alireza-beta-script/core';
 
 function sendRequest(imageId, imageIdIndex, options) {
   return loadAndCacheImage(imageId, options).then(

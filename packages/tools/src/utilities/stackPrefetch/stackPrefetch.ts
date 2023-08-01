@@ -7,7 +7,7 @@ import {
   imageLoadPoolManager,
   cache,
   getConfiguration as getCoreConfiguration,
-} from '@alireza-beta-monorepo/core';
+} from '@alireza-beta-script/core';
 import { addToolState, getToolState } from './state';
 
 const requestType = Enums.RequestType.Prefetch;

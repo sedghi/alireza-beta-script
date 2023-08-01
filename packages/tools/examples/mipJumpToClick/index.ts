@@ -4,14 +4,14 @@ import {
   Enums,
   setVolumesForViewports,
   Types,
-} from '@alireza-beta-monorepo/core';
+} from '@alireza-beta-script/core';
 import {
   initDemo,
   createImageIdsAndCacheMetaData,
   setTitleAndDescription,
   setPetTransferFunctionForVolumeActor,
 } from '../../../../utils/demo/helpers';
-import * as cornerstoneTools from '@alireza-beta-monorepo/tools';
+import * as cornerstoneTools from '@alireza-beta-script/tools';
 
 // This is for debugging purposes
 console.warn(

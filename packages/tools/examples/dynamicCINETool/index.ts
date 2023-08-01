@@ -1,4 +1,4 @@
-import cornerstoneDICOMImageLoader from '@alireza-beta-monorepo/dicom-image-loader';
+import cornerstoneDICOMImageLoader from '@alireza-beta-script/dicom-image-loader';
 import {
   RenderingEngine,
   Types,
@@ -6,14 +6,14 @@ import {
   volumeLoader,
   setVolumesForViewports,
   cache,
-} from '@alireza-beta-monorepo/core';
+} from '@alireza-beta-script/core';
 import {
   initDemo,
   createImageIdsAndCacheMetaData,
   setTitleAndDescription,
   setPetTransferFunctionForVolumeActor,
 } from '../../../../utils/demo/helpers';
-import * as cornerstoneTools from '@alireza-beta-monorepo/tools';
+import * as cornerstoneTools from '@alireza-beta-script/tools';
 import createSecondStageLayout from './createSecondStageLayout';
 import createFirstStageLayout from './createFirstStageLayout';
 

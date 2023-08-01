@@ -1,4 +1,4 @@
-import type { Types } from '@alireza-beta-monorepo/core';
+import type { Types } from '@alireza-beta-script/core';
 import { PlanarFreehandROIAnnotation } from '../../../types/ToolSpecificAnnotationTypes';
 
 // Note: These types are internal to the drawing/editing processes of the tool.

@@ -34,7 +34,7 @@ import * as touch from './touch';
 import * as dynamicVolume from './dynamicVolume';
 
 // Events
-import { triggerEvent } from '@alireza-beta-monorepo/core';
+import { triggerEvent } from '@alireza-beta-script/core';
 
 export {
   math,

@@ -14,7 +14,7 @@ import {
   getEnabledElement,
   Types,
   utilities,
-} from '@alireza-beta-monorepo/core';
+} from '@alireza-beta-script/core';
 
 import { checkAndDefineIsLockedProperty } from './annotationLocking';
 import { checkAndDefineIsVisibleProperty } from './annotationVisibility';

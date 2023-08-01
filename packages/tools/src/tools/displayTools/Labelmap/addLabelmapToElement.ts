@@ -3,7 +3,7 @@ import {
   addVolumesToViewports,
   Types,
   Enums,
-} from '@alireza-beta-monorepo/core';
+} from '@alireza-beta-script/core';
 
 /**
  * It adds a labelmap segmentation representation of the viewport's HTML Element.

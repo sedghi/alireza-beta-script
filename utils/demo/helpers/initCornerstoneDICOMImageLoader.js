@@ -1,7 +1,7 @@
 import dicomParser from 'dicom-parser';
-import * as cornerstone from '@alireza-beta-monorepo/core';
-import * as cornerstoneTools from '@alireza-beta-monorepo/tools';
-import cornerstoneDICOMImageLoader from '@alireza-beta-monorepo/dicom-image-loader';
+import * as cornerstone from '@alireza-beta-script/core';
+import * as cornerstoneTools from '@alireza-beta-script/tools';
+import cornerstoneDICOMImageLoader from '@alireza-beta-script/dicom-image-loader';
 
 window.cornerstone = cornerstone;
 window.cornerstoneTools = cornerstoneTools;

@@ -52,7 +52,7 @@ async function run() {
           }
 
           for (const dependency of Object.keys(dependencies)) {
-            if (dependency.startsWith('@alireza-beta-monorepo/')) {
+            if (dependency.startsWith('@alireza-beta-script/')) {
               dependencies[dependency] = `^${nextVersion}`;
 
               console.log(

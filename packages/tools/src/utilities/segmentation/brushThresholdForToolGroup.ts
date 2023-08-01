@@ -1,7 +1,7 @@
-import type { Types } from '@alireza-beta-monorepo/core';
+import type { Types } from '@alireza-beta-script/core';
 import { getToolGroup } from '../../store/ToolGroupManager';
 import triggerAnnotationRenderForViewportIds from '../triggerAnnotationRenderForViewportIds';
-import { getRenderingEngine } from '@alireza-beta-monorepo/core';
+import { getRenderingEngine } from '@alireza-beta-script/core';
 import getBrushToolInstances from './utilities';
 
 export function setBrushThresholdForToolGroup(

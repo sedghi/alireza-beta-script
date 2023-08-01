@@ -4,7 +4,7 @@ import {
   getRenderingEngine,
   Enums,
   Types,
-} from '@alireza-beta-monorepo/core';
+} from '@alireza-beta-script/core';
 import { Events as csToolsEvents } from '../../enums';
 import {
   getToolGroup,

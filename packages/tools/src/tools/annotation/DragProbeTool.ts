@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-empty-function */
-import { getEnabledElement } from '@alireza-beta-monorepo/core';
-import type { Types } from '@alireza-beta-monorepo/core';
+import { getEnabledElement } from '@alireza-beta-script/core';
+import type { Types } from '@alireza-beta-script/core';
 
 import {
   drawHandles as drawHandlesSvg,

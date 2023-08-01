@@ -2,7 +2,7 @@ import {
   getEnabledElement,
   VolumeViewport,
   StackViewport,
-} from '@alireza-beta-monorepo/core';
+} from '@alireza-beta-script/core';
 import { BaseTool } from './base';
 import { MouseWheelEventType } from '../types/EventTypes';
 import { scrollVolume } from '../utilities/scroll';

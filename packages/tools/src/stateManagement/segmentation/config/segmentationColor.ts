@@ -1,4 +1,4 @@
-import { utilities } from '@alireza-beta-monorepo/core';
+import { utilities } from '@alireza-beta-script/core';
 import * as SegmentationState from '../../../stateManagement/segmentation/segmentationState';
 import { Color } from '../../../types/SegmentationStateTypes';
 import { ColorLUT } from '../../../types/SegmentationStateTypes';

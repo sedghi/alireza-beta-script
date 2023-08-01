@@ -5,7 +5,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.1](https://github.com/cornerstonejs/cornerstone3D-beta/compare/v1.0.0...v1.0.1) (2023-07-31)
 
-**Note:** Version bump only for package @alireza-beta-monorepo/core
+**Note:** Version bump only for package @alireza-beta-script/core
 
 ## [0.44.2](https://github.com/cornerstonejs/cornerstone3D-beta/compare/@alireza-test-monorepo/core@0.44.1...@alireza-test-monorepo/core@0.44.2) (2023-05-03)
 

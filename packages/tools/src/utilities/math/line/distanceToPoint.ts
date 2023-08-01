@@ -1,5 +1,5 @@
 import distanceToPointSquared from './distanceToPointSquared';
-import type { Types } from '@alireza-beta-monorepo/core';
+import type { Types } from '@alireza-beta-script/core';
 
 /**
  * Calculates the distance of a point to a line

@@ -1,7 +1,7 @@
-import { getRenderingEngines, utilities } from '@alireza-beta-monorepo/core';
-import type { Types } from '@alireza-beta-monorepo/core';
+import { getRenderingEngines, utilities } from '@alireza-beta-script/core';
+import type { Types } from '@alireza-beta-script/core';
 
-//import type { Types } from '@alireza-beta-monorepo/core'
+//import type { Types } from '@alireza-beta-script/core'
 
 type RenderingEngineAndViewportIds = {
   renderingEngine: Types.IRenderingEngine | undefined; //Types.IRenderingEngine | undefined

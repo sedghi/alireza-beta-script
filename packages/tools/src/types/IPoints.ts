@@ -1,4 +1,4 @@
-import { Types } from '@alireza-beta-monorepo/core';
+import { Types } from '@alireza-beta-script/core';
 
 /**
  * Points in page, client, canvas and world

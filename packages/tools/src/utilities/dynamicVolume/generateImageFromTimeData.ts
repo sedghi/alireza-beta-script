@@ -1,4 +1,4 @@
-import { Enums, Types } from '@alireza-beta-monorepo/core';
+import { Enums, Types } from '@alireza-beta-script/core';
 
 /**
  * Gets the scalar data for a series of time frames from a 4D volume, returns an

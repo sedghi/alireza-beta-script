@@ -2,7 +2,7 @@ import {
   getEnabledElementByIds,
   Types,
   utilities as csUtils,
-} from '@alireza-beta-monorepo/core';
+} from '@alireza-beta-script/core';
 
 import Representations from '../../../enums/SegmentationRepresentations';
 import * as SegmentationConfig from '../../../stateManagement/segmentation/config/segmentationConfig';

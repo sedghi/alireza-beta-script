@@ -1,4 +1,4 @@
-import { Types } from '@alireza-beta-monorepo/core';
+import { Types } from '@alireza-beta-script/core';
 import { point } from '../math';
 import interpolateSegmentPoints from './interpolation/interpolateSegmentPoints';
 

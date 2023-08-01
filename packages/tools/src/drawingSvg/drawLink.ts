@@ -1,4 +1,4 @@
-import type { Types } from '@alireza-beta-monorepo/core';
+import type { Types } from '@alireza-beta-script/core';
 
 import drawLine from './drawLine';
 import findClosestPoint from '../utilities/math/vec2/findClosestPoint';

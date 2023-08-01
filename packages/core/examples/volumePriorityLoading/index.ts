@@ -5,7 +5,7 @@ import {
   volumeLoader,
   imageLoadPoolManager,
   CONSTANTS,
-} from '@alireza-beta-monorepo/core';
+} from '@alireza-beta-script/core';
 import {
   initDemo,
   createImageIdsAndCacheMetaData,

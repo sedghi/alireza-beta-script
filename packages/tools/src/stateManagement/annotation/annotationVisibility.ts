@@ -1,4 +1,4 @@
-import { eventTarget, triggerEvent } from '@alireza-beta-monorepo/core';
+import { eventTarget, triggerEvent } from '@alireza-beta-script/core';
 import { getAnnotation } from './annotationState';
 import { Events } from '../../enums';
 import { Annotation } from '../../types';

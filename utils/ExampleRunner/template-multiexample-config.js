@@ -77,7 +77,7 @@ module.exports = {
   )}" },
       {
         from:
-          '../../../node_modules/@alireza-beta-monorepo/dicom-image-loader/dist/dynamic-import',
+          '../../../node_modules/@alireza-beta-script/dicom-image-loader/dist/dynamic-import',
         to: '${destPath.replace(/\\/g, '/')}',
       },
       ],
@@ -95,15 +95,15 @@ module.exports = {
   },
   resolve: {
     alias: {
-      '@alireza-beta-monorepo/core': '${csRenderBasePath.replace(/\\/g, '/')}',
-      '@alireza-beta-monorepo/tools': '${csToolsBasePath.replace(/\\/g, '/')}',
-      '@alireza-beta-monorepo/streaming-image-volume-loader': '${csStreamingBasePath.replace(
+      '@alireza-beta-script/core': '${csRenderBasePath.replace(/\\/g, '/')}',
+      '@alireza-beta-script/tools': '${csToolsBasePath.replace(/\\/g, '/')}',
+      '@alireza-beta-script/streaming-image-volume-loader': '${csStreamingBasePath.replace(
         /\\/g,
         '/'
       )}',
       // We use this alias and the CopyPlugin to support using the dynamic-import version
       // of WADO Image Loader
-      '@alireza-beta-monorepo/dicom-image-loader': '${csDICOMImageLoaderDistPath.replace(
+      '@alireza-beta-script/dicom-image-loader': '${csDICOMImageLoaderDistPath.replace(
         /\\/g,
         '/'
       )}'

@@ -3,10 +3,10 @@ import {
   Types,
   Enums,
   CONSTANTS,
-} from '@alireza-beta-monorepo/core';
+} from '@alireza-beta-script/core';
 import { setTitleAndDescription } from '../../../../utils/demo/helpers';
-import { init as csRenderInit } from '@alireza-beta-monorepo/core';
-import { init as csToolsInit } from '@alireza-beta-monorepo/tools';
+import { init as csRenderInit } from '@alireza-beta-script/core';
+import { init as csToolsInit } from '@alireza-beta-script/tools';
 
 import vtkActor from '@kitware/vtk.js/Rendering/Core/Actor';
 import vtkSphereSource from '@kitware/vtk.js/Filters/Sources/SphereSource';

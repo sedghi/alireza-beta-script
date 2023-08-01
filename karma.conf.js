@@ -113,13 +113,13 @@ module.exports = function (config) {
           path: require.resolve('path-browserify'),
         },
         alias: {
-          '@alireza-beta-monorepo/core': path.resolve(
+          '@alireza-beta-script/core': path.resolve(
             'packages/core/src/index'
           ),
-          '@alireza-beta-monorepo/tools': path.resolve(
+          '@alireza-beta-script/tools': path.resolve(
             'packages/tools/src/index'
           ),
-          '@alireza-beta-monorepo/streaming-image-volume-loader': path.resolve(
+          '@alireza-beta-script/streaming-image-volume-loader': path.resolve(
             'packages/streaming-image-volume-loader/src/index'
           ),
         },

@@ -1,5 +1,5 @@
 import { IDistance, IPoints, ITouchPoints } from '../../types';
-import { Types } from '@alireza-beta-monorepo/core';
+import { Types } from '@alireza-beta-script/core';
 
 /**
  * Returns the difference between multiple `IPoints` instances.

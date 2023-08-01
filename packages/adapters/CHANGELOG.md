@@ -5,7 +5,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.0.1](https://github.com/dcmjs-org/dcmjs/compare/v1.0.0...v1.0.1) (2023-07-31)
 
-**Note:** Version bump only for package @alireza-beta-monorepo/adapters
+**Note:** Version bump only for package @alireza-beta-script/adapters
 
 # [0.6.0](https://github.com/dcmjs-org/dcmjs/compare/@alireza-test-monorepo/adapters@0.5.0...@alireza-test-monorepo/adapters@0.6.0) (2023-03-28)
 

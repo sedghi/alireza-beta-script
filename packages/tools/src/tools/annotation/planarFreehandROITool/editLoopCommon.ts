@@ -1,4 +1,4 @@
-import { Types } from '@alireza-beta-monorepo/core';
+import { Types } from '@alireza-beta-script/core';
 import { vec2 } from 'gl-matrix';
 import { polyline } from '../../../utilities/math';
 import { EventTypes } from '../../../types';

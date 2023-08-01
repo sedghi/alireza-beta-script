@@ -1,4 +1,4 @@
-import { getEnabledElement, triggerEvent } from '@alireza-beta-monorepo/core';
+import { getEnabledElement, triggerEvent } from '@alireza-beta-script/core';
 import Events from '../../enums/Events';
 import { Swipe } from '../../enums/Touch';
 
@@ -14,7 +14,7 @@ import {
   getMeanTouchPoints,
   // getRotation
 } from '../../utilities/touch';
-import { Settings } from '@alireza-beta-monorepo/core';
+import { Settings } from '@alireza-beta-script/core';
 
 const runtimeSettings = Settings.getRuntimeSettings();
 

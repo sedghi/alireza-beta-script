@@ -1,4 +1,4 @@
-import { Enums, Types } from '@alireza-beta-monorepo/core';
+import { Enums, Types } from '@alireza-beta-script/core';
 import triggerAnnotationRender from '../utilities/triggerAnnotationRender';
 
 /**

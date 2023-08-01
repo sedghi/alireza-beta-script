@@ -1,6 +1,6 @@
 import vtkMath from '@kitware/vtk.js/Common/Core/Math';
-import { utilities as csUtils } from '@alireza-beta-monorepo/core';
-import type { Types } from '@alireza-beta-monorepo/core';
+import { utilities as csUtils } from '@alireza-beta-script/core';
+import type { Types } from '@alireza-beta-script/core';
 /**
  * Returns a point based on some criteria (e.g., minimum or maximum intensity) in
  * the line of sight (on the line between the passed worldPosition and camera position).

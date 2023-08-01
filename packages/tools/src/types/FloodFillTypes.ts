@@ -1,4 +1,4 @@
-import { Types } from '@alireza-beta-monorepo/core';
+import { Types } from '@alireza-beta-script/core';
 
 type FloodFillResult = {
   flooded: Types.Point2[] | Types.Point3[];

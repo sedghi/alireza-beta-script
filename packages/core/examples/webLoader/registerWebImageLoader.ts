@@ -1,4 +1,4 @@
-import * as cornerstone from '@alireza-beta-monorepo/core';
+import * as cornerstone from '@alireza-beta-script/core';
 const canvas = document.createElement('canvas');
 let lastImageIdDrawn;
 

@@ -4,8 +4,8 @@ import {
   VolumeViewport,
   StackViewport,
   cache,
-} from '@alireza-beta-monorepo/core';
-import type { Types } from '@alireza-beta-monorepo/core';
+} from '@alireza-beta-script/core';
+import type { Types } from '@alireza-beta-script/core';
 
 import { vec4 } from 'gl-matrix';
 

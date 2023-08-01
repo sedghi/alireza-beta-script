@@ -1,4 +1,4 @@
-import { cache, Types } from '@alireza-beta-monorepo/core';
+import { cache, Types } from '@alireza-beta-script/core';
 import vtkActor from '@kitware/vtk.js/Rendering/Core/Actor';
 
 import {

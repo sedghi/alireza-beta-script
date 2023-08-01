@@ -1,4 +1,4 @@
-import type { Types } from '@alireza-beta-monorepo/core';
+import type { Types } from '@alireza-beta-script/core';
 import type { IToolGroup } from '../../types';
 import { ToolGroupManager } from '../../store';
 import { ToolModes } from '../../enums';

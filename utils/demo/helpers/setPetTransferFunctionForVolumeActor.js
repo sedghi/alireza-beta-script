@@ -1,4 +1,4 @@
-import { utilities } from '@alireza-beta-monorepo/core';
+import { utilities } from '@alireza-beta-script/core';
 
 export default function setPetTransferFunction({ volumeActor }) {
   const rgbTransferFunction = volumeActor

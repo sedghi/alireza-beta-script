@@ -3,9 +3,9 @@ import {
   Types,
   Enums,
   metaData,
-} from '@alireza-beta-monorepo/core';
-import cornerstoneDICOMImageLoader from '@alireza-beta-monorepo/dicom-image-loader';
-import * as cornerstoneTools from '@alireza-beta-monorepo/tools';
+} from '@alireza-beta-script/core';
+import cornerstoneDICOMImageLoader from '@alireza-beta-script/dicom-image-loader';
+import * as cornerstoneTools from '@alireza-beta-script/tools';
 import htmlSetup from './htmlSetup';
 import uids from './uids';
 

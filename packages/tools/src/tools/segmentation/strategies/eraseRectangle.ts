@@ -1,5 +1,5 @@
-import { ImageVolume, utilities as csUtils } from '@alireza-beta-monorepo/core';
-import type { Types } from '@alireza-beta-monorepo/core';
+import { ImageVolume, utilities as csUtils } from '@alireza-beta-script/core';
+import type { Types } from '@alireza-beta-script/core';
 
 import { getBoundingBoxAroundShape } from '../../../utilities/boundingBox';
 import { triggerSegmentationDataModified } from '../../../stateManagement/segmentation/triggerSegmentationEvents';
