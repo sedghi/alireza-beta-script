@@ -40,7 +40,7 @@ const VIEWPORT_MIN_SIZE = 2;
 /**
  * A RenderingEngine takes care of the full pipeline of creating viewports and rendering
  * them on a large offscreen canvas and transmitting this data back to the screen. This allows us
- *
+ * added by main
  * Instantiating a rendering engine:
  * on the rendering engine; however, it will trigger a render on all viewports. A more efficient
  * way to do this is to call `renderViewports([viewportId])` on the rendering engine to
